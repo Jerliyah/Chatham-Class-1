@@ -1,0 +1,36 @@
+
+body {
+    padding: 2rem 15rem;
+    min-height: 100vh;
+    background: #EDEDEB;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Lobster';
+    color: #8EBBD2;
+    text-shadow: 1px 1px black;
+}
+
+
+#second {
+    text-align: right;
+}
+
+
+img {
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 30px solid transparent;
+    border-image: url("wood.jpg") 30 stretch;
+    /*
+    Go here to learn more about border image:
+    https://www.w3schools.com/css/css3_border_images.asp
+    */
+}
+
