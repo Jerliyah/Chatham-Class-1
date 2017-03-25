@@ -1,0 +1,48 @@
+
+body {
+    background: url("images/galaxy.jpg");
+    background-size: 100% 100%;
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Baloo Bhaina", sans-serif;
+}
+
+
+h1, h2, input {
+    color: white;
+}
+
+h2 {
+    text-shadow: 2px 2px black;
+}
+
+
+img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 100%;
+    box-shadow: 0 0 50px white;
+}
+
+
+input, button {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+input:focus, button:hover {
+    box-shadow: 0 0 10px white;
+}
+
+input {
+    text-align: center;
+    font-weight: bold;
+    background: rgba(0,0,0,0.5);
+}
+
+button {
+    background: white;
+    font-weight: bold;
+}
