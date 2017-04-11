@@ -24,3 +24,8 @@ img {
     border-radius: 100%;
     box-shadow: 0 0 50px white;
 }
+
+a {
+    color: white;
+    font-size: 3rem;
+}
